@@ -4,7 +4,7 @@
 
 ## Quick Start
 
-* Create a new nestjs app `nest new project-name`
+* Create a new Nestjs app `nest new project-name`
 
 * Download this repository
 
@@ -15,6 +15,8 @@
 * Copy the `package.json` file scripts to your `package.json` file scripts in your project
 
 * Follow this naming: src/types/test.**type**.ts, src/app/modules/test.**module**.ts, ..etc
+
+> Test files are made for just testing if you want to rename or remove them do that
 
 * install all the dependencies needed for your project:
 
