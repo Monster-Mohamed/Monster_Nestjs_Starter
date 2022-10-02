@@ -60,6 +60,10 @@ yarn add module-alias
 yarn add tsconfig-paths
 ```
 
+```bash
+yarn add @nestjs/config
+```
+
 > for more information about project configuration see this video: https://www.udemy.com/course/nestjs-building-real-project-api-from-scratch/learn/lecture/26416170#notes
 
 ## App Info
@@ -74,4 +78,4 @@ Mohamed Monster
 
 ### Version
 
-v1
+v2.2
