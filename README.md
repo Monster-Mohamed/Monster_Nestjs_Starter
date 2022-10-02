@@ -1,4 +1,4 @@
-# Monster NestJS Starter v1
+# Monster NestJS Starter v2
 
 > Create a server with an organized src folder
 
@@ -18,22 +18,46 @@
 
 > Test files are made for just testing if you want to rename or remove them do that
 
+### Installation Steps
+
+> if you have a cmder use this command to clone these files in your project
+
+```bash
+nestjs:starter
+```
+
 * install all the dependencies needed for your project:
 
+> if you have a Cmder use this command instead to install all these libs
+
 ```bash
-yarn install typeorm
+nestjs:starter:libs
+```
+
+> if you haven't Cmder use these commands 👇
+
+```bash
+yarn add typeorm
 ```
 
 ```bash
-yarn install nodemon
+yarn add nodemon
 ```
 
 ```bash
-yarn install @nestjs/typeorm
+yarn add @nestjs/typeorm
 ```
 
 ```bash
-yarn install pg
+yarn add pg
+```
+
+```bash
+yarn add module-alias
+```
+
+```bash
+yarn add tsconfig-paths
 ```
 
 > for more information about project configuration see this video: https://www.udemy.com/course/nestjs-building-real-project-api-from-scratch/learn/lecture/26416170#notes
