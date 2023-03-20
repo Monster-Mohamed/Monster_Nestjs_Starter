@@ -6,7 +6,7 @@ import ormConfig from '@app/ormconfig';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(ormConfig), ConfigModule.forRoot()],
+  imports: [TypeOrmModule.forRootAsync(ormConfig), ConfigModule.forRoot()],
   controllers: [AppController],
   providers: [AppService],
 })

@@ -8,7 +8,7 @@ const ormConfig: PostgresConnectionOptions = {
   database: 'booky',
   synchronize: false,
   entities: [], // Put HERE all the Entities
-  migrations: [__dirname + '/database/migrations/**/*{.ts,.js}'],
+  migrations: [CreateTasks1679299243114], // Put HERE all the migrations you export it from it's file
 };
 
 export default ormConfig;
