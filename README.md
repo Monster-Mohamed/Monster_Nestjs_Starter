@@ -4,17 +4,17 @@
 
 ## Quick Start
 
-* Create a new Nestjs app `nest new project-name`
+- Create a new Nestjs app `nest new project-name`
 
-* Download this repository
+- Download this repository
 
-* Copy the src folder and paste it into your project
+- Copy the src folder and paste it into your project
 
-* Copy the `tsconfig.json` file codes to your `tsconfig.json` file in your project
+- Copy the `tsconfig.json` file codes to your `tsconfig.json` file in your project
 
-* Copy the `package.json` file scripts to your `package.json` file scripts in your project
+- Copy the `package.json` file scripts to your `package.json` file scripts in your project
 
-* Follow this naming: src/types/test.**type**.ts, src/app/modules/test.**module**.ts, ..etc
+- Write the entities in the ormconfig.ts
 
 > Test files are made for just testing if you want to rename or remove them do that
 
@@ -26,7 +26,7 @@
 nestjs:starter
 ```
 
-* install all the dependencies needed for your project:
+- install all the dependencies needed for your project:
 
 > if you have a Cmder use this command instead to install all these libs
 
@@ -64,18 +64,16 @@ yarn add tsconfig-paths
 yarn add @nestjs/config
 ```
 
-> for more information about project configuration see this video: https://www.udemy.com/course/nestjs-building-real-project-api-from-scratch/learn/lecture/26416170#notes
-
 ## App Info
 
 ### Author
 
-Mohamed Monster
+The Monster
 
-[My Portfolio](https://mohamed--monster.web.app/)
+[My Portfolio](https://theeemonster.web.app/)
 
 [My GitHub](https://github.com/Monster-Mohamed)
 
 ### Version
 
-v2.2
+v2.3

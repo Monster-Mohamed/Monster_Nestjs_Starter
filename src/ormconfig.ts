@@ -7,7 +7,7 @@ const ormConfig: PostgresConnectionOptions = {
   password: '123',
   database: 'booky',
   synchronize: false,
-  entities: [__dirname + '/**/*.entity{.ts,.js}'],
+  entities: [], // Put HERE all the Entities
   migrations: [__dirname + '/database/migrations/**/*{.ts,.js}'],
 };
 
